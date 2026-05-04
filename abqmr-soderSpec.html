@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<title>ABQMR Soder-Spec</title>
+<meta charset="UTF-8">
+<meta name="ABQMR Magnetic Renosance" content="Information about ABQMR"> 
+<meta name="ABQMR Magnetic Renosance" content="width=device-width, initial-scale=1">
+<meta name="description" content="ABQMR Inc. provides research services and one of a kind fabrication related to nuclear magnetic resonance (NMR) and magnetic resonance imaging (MRI).  We use our combined expertise of over 100 years in experimental magnetic resonance (MR) to provide support for the development of a product from the early stages of assessing and optimizing commercial viability to the later stages of helping to establish small or large-scale manufacturing.">
+<meta name="author" content="ABQMR">
+<meta name="keywords" content="ABQNMR, Albuquerque Magnetic Resonance, Magnetic Resonance, Magnetic Resonance Imaging, NMR hardware,MRI hardware, NMR fabrication, MRI fabrication, NMR, MRI, New Mexico Resonance">
+<link rel="stylesheet" type="text/css" href="css/abqmr-styles.css"/>
+
+
+<style>
+  /*new style for spacing between two headings*/
+  .w3-padding-1{padding-top:1px!important;padding-bottom:16px!important}
+
+  h4{
+    padding-left: 60px;}
+  p {
+    margin-right: 100px;
+    margin-left: 88px
+    }
+  figure2, figcaption {
+    padding-left:0px; 
+    padding-bottom:30px;
+    }
+  figure2 {
+    padding-bottom:30px;
+    }
+  img {
+      max-width: 100%
+  }
+</style> 
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+      <a href="index.html#home" class="w3-bar-item w3-button"><img src="images/logos/ABQMR-175px.jpg" width="165" height="48" alt="ABQMR"></a>
+      <!-- Float links to the right. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href=" index.html#about" class="w3-bar-item w3-button">About</a>
+        <a href="abqmr-products.html" class="w3-bar-item w3-button">Products</a>
+        <a href="abqmr-projects.html" class="w3-bar-item w3-button">Projects</a>
+        <a href="abqmr-nmr2.html" class="w3-bar-item w3-button">NMR<sup>2</sup>Meeting</a>
+        <a href="abqmr-bios.html" class="w3-bar-item w3-button">People</a>
+        <a href="abqmr-contact.html" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Page content -->
+  <!-- Headings -->
+  <div class="w3-content w3-padding" style="max-width:1700px">
+    <div class="w3-container w3-padding-48">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16" >Soder-Spec</h4>
+    </div >
+    <div class="w3-container w3-padding-8">
+      <p><strong>Easy to Use and Affordable NMR Spectrometer</strong>
+        <br><br>
+        ABQMR has developed a <b>so</b>ftware <b>de</b>fined <b>r</b>adio <b>spec</b>trometer (Soder-Spec). 
+        This table-top device is an all-in-one system that has everything you need for NMR spectroscopy and relaxometry except for the magnet/probe. 
+        We know that not everyone is a NMR expert, so we designed the Soder-Spec with that in mind. 
+        Most of the NMR operational tasks have been streamlined or even fully automated in the Soder-Spec software application. 
+        The system itself is extremely portable with the current version weighing about 8 pounds and is contained in a 11.5" x 10" x 7" box. 
+        The price of a Soder-Spec is a fraction of the cost of most commercial NMR spectrometers.
+        The Soder-Spec has been used in several projects at ABQMR to both acquire data and analyze it. 
+        We have integrated the software into the spectrometer itself via a 10" touchscreen monitor mounted on the front of the Soder-Spec. 
+        <br><br><br>
+
+        <strong>Pricing</strong>
+        <br><br>
+        The Soder-Spec is made to order and its price is dependent on exact customer specifications. Please contact us to discuss your needs and pricing.
+        <br><br>
+      </p>
+    </div>
+
+    <style>
+      .iframe-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+    </style>
+
+    <div class="w3-display-container">
+      <div class="iframe-container">
+        <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTwRy2l1vtke3MtWyzlFHxNvsK7ucOTGHwE43Mhs1o67SypwOXDA_3aGGmlogS67F-GW4xNGadmanRq/pubembed?start=true&loop=true&delayms=7000" frameborder="0" width="1440" height="839" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+      </div>
+    </div>
+
+
+    <!-- First Section text-->
+    <div class="w3-container w3-padding-8">
+      <br>
+      <p>
+        <strong>Hardware:</strong>
+        <br><br>
+        ABQMR built the Soder-Spec with the intention of being affordable and effective. 
+        Our current design reflects this and can be modified to suit individual needs. 
+        A 1 W RF power amplifier is included in the box. 
+        Several of the circuits have been designed in house including a 25 W RF booster amplifier and the transmit/receive switch. 
+        The heart of the Soder-Spec is the software defined radio (SDR) itself: Red Pitaya’s FPGA SDRlab 122-16. 
+        This SDR is responsible for controlling the spectrometer RF pulses and data acquisition. 
+        The user interface to control the SDR has been integrated into the hardware via a mounted touchscreen monitor and a Raspberry Pi 5 single board computer.
+        <br><br>
+        We are currently entertaining the idea of making a version of the Soder-Spec that doesn't have the built in touchscreen monitor, but instead is controlled remotely by a laptop, tablet, or smartphone via bluetooth or WiFi.
+        <br><br><br>
+        <strong>Software:</strong>
+        <br><br>
+        The Soder-Spec software was created for customers who are not NMR experts. It comes with predefined pulse sequences for FID, spin echo, inversion recovery, and CPMG NMR experiments. It has automated both searching for resonance frequencies and finding correct pulse settings. Users can shift the phase and view a Fourier transform of the data. Extracting T1 and T2 times from inversion recovery and CPMG experiments are as simple as clicking a button and can use either single or bi exponential fits. NMR data can be saved and exported to several different formats. Users can also schedule experiments for overnight or weekend data collection. 
+        <br><br>
+        There is currently no way for users to create their own pulse sequences in the UI, but other sequences can be implemented by ABQMR upon request. The Soder-Spec software is also customer specific and can be modified to suit individual needs.
+        <br><br>
+      </p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer style="position: fixed;bottom: 0;text-align: center;width: 100%; background-color: #000; color: white;padding: 16px">
+    &copy;Copyright ABQMR 2022 
+  </footer>
+
+  <br><br><br>
+
+</body>
+</html>
